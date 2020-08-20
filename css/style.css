@@ -12,3 +12,16 @@
 .navbar-dark{
   background: #512DA8;
 }
+.fa-icon{
+  border: 1px solid black;
+  margin: 8px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.fa-icon:hover{
+  background: #55ACEE;
+  color: #fff;
+  transform: translateY(-5px);
+  transition: 1s;
+}
