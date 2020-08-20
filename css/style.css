@@ -15,9 +15,10 @@
 .fa-icon{
   border: 1px solid black;
   margin: 8px;
-  padding: 10px;
-  background-color: #fff;
+  padding: 15px;
+  background: blue;
   border-radius: 10px;
+  color: #fff;
 }
 .fa-icon:hover{
   background: #55ACEE;
