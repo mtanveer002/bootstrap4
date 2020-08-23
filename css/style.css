@@ -8,14 +8,14 @@
   margin-top:20px;
 }
 .footer{
-  background-color:#833471;
+  background-color:#AAAAAA;
 
 }
 .navbar-dark{
   background: #512DA8;
 }
 .fa-icon{
-  border: 1px solid black;
+  border: 1px solid yellow;
   margin: 8px;
   padding: 10px;
   background: #7d5fff;
@@ -34,6 +34,10 @@
   color: #fff;
 }
 .r_card{
-  height: 100vh;
-  margin-top:10rem;
+  height: 80vh;
+  margin-bottom: 20px;
+}
+.card-responsive{
+  margin-top:8rem;
+
 }
