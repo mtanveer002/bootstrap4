@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,11 +14,12 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Assignment</title>
   </head>
+  <body>
 
-<body>
+  <!-- =========================navbar start==================== -->
   <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Ristorante con Fusion</a>
+    <a class="navbar-brand" href="index.html"> <img src="img/logo.png" class="img-fluid" alt="logo" height="30" width="41" > </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,20 +41,22 @@
     </div>
   </div>
 </nav>
-<!-- =====================header start=============================== -->
-    <header class="jumbotron">
-        <div class="container">
-            <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col-12 col-sm">
-                </div>
+  <!-- =========================navbar End==================== -->
+
+<header class="jumbotron">
+    <div class="container">
+        <div class="row row-header">
+            <div class="offset-1 col-lg-7 col-md-6">
+                <h1>Ristorante con Fusion</h1>
+                <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+            </div>
+            <div class="col-12 col-sm">
+              <img src="img/logo.png" class="img-fluid" alt="logo">
             </div>
         </div>
-    </header>
-<!-- =====================header End=============================== -->
+    </div>
+</header>
+
 
 <!-- ==============================breadcrumb start====================== -->
     <div class="container">
@@ -69,146 +71,149 @@
             </div>
         </div>
 <!-- ==============================breadcrumb end====================== -->
-        <div class="row row-content">
-           <div class="col-12">
-              <h3>Location Information</h3>
-           </div>
-            <div class="col-12 col-sm-4 offset-sm-1">
-                   <h5>Our Address</h5>
-                    <address style="font-size: 100%">
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
-		              <i class="fa fa-fax"></i>: +852 8765 4321<br>
-		              <i class="fa fa-envelope"></i>:
-                        <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+
+<!-- ============================address,and contact start===================== -->
+<div class="row row-content">
+   <div class="col-12">
+      <h3>Location Information</h3>
+   </div>
+    <div class="col-12 col-sm-4 offset-sm-1">
+           <h5>Our Address</h5>
+            <address style="font-size: 100%">
+          121, Clear Water Bay Road<br>
+          Clear Water Bay, Kowloon<br>
+          HONG KONG<br>
+          <i class="fa fa-phone"></i>: +852 1234 5678<br>
+          <i class="fa fa-fax"></i>: +852 8765 4321<br>
+          <i class="fa fa-envelope"></i>:
+                <a href="mailto:confusion@food.net">confusion@food.net</a>
+       </address>
+    </div>
+    <div class="col-12 col-sm-6 offset-sm-1">
+        <h5>Map of our Location</h5>
+    </div>
+    <div class="col-12 col-sm-11 offset-sm-1">
+      <div class="btn-group" role="group">
+        <a role="button" class="btn btn-primary" href="tel:.+923002884058"> <i class="fa fa-phone fa-lg"> Call</i> </a>
+        <a role="button" class="btn btn-info" href="#"> <i class="fa fa-skype"></i> Skype</a>
+        <a role="button" class="btn btn-success" href="mailto:.mtanveerraj002@gmail.com"> <i class="fa fa-envelope-o"></i> Email</a>
+      </div>
+    </div>
+</div>
+
+<div class="row row-content">
+   <div class="col-12">
+      <h3>Send us your Feedback</h3>
+   </div>
+    <div class="col-12 col-md-9">
+      <form>
+         <div class="form-group row">
+             <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+             <div class="col-10">
+                 <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+             </div>
+         </div>
+         <div class="form-group row">
+             <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+             <div class="col-10">
+                 <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+             </div>
+         </div>
+         <div class="form-group row">
+                <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                <div class="col-5 col-md-3">
+                    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                </div>
+                <div class="col-7 col-md-7">
+                    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                </div>
             </div>
-            <div class="col-12 col-sm-6 offset-sm-1">
-                <h5>Map of our Location</h5>
+            <div class="form-group row">
+                <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                <div class="col-md-10">
+                    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                </div>
             </div>
-            <div class="col-12 col-sm-11 offset-sm-1">
-              <div class="btn-group" role="group">
-                <a role="button" class="btn btn-primary" href="tel:.+923002884058"> <i class="fa fa-phone fa-lg"> Call</i> </a>
-                <a role="button" class="btn btn-info" href="#"> <i class="fa fa-skype"></i> Skype</a>
-                <a role="button" class="btn btn-success" href="mailto:.mtanveerraj002@gmail.com"> <i class="fa fa-envelope-o"></i> Email</a>
-              </div>
-            </div>
-        </div>
-        <br>
-<!-- ==================================form start======================================= -->
-        <div class="row row-content">
-           <div class="col-12">
-              <h3>Send us your Feedback</h3>
-           </div>
-            <div class="col-12 col-md-9">
-              <form>
-                 <div class="form-group row">
-                     <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-                     <div class="col-md-10">
-                         <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-                     </div>
-                 </div>
-                 <div class="form-group row">
-                     <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-                     <div class="col-md-10">
-                         <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-                     </div>
-                 </div>
-                 <div class="form-group row">
-                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
-                        </div>
-                        <div class="col-7 col-md-7">
-                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
-                        <div class="col-md-10">
-                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                       <div class="col-md-6 offset-md-2">
-                           <div class="form-check">
-                               <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-                               <label class="form-check-label" for="approve">
-                                   <strong>May we contact you?</strong>
-                               </label>
-                           </div>
-                       </div>
-                       <div class="col-md-3 offset-md-1">
-                           <select class="form-control">
-                               <option>Tel.</option>
-                               <option>Email</option>
-                           </select>
-                       </div>
+            <div class="form-group row">
+               <div class="col-md-6 offset-md-2">
+                   <div class="form-check">
+                       <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                       <label class="form-check-label" for="approve">
+                           <strong>May we contact you?</strong>
+                       </label>
                    </div>
-                   <div class="form-group row">
-                      <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-                      <div class="col-md-10">
-                          <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
-                      </div>
-                  </div>
-                   <div class="form-group row">
-                        <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
-                        </div>
-                    </div>
-             </form>
-
-            <br>
-
-
-    <!-- ===============================footer Start======================== -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-                  121, Clear Water Bay Road<br>
-                  Clear Water Bay, Kowloon<br>
-                  HONG KONG<br>
-                  <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
-                  <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
-                  <i class="fa fa-envelope-open fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
-               </address>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a role="btn btn-success" href="http://www.google.com" class="fa fa-google fa-icon"></a>
-                        <a href="http://www.facebook.com/profile.php?id=" class="fa fa-facebook fa-icon"></a>
-                        <a href="http://www.linkedin.com/in/" class="fa fa-linkedin fa-icon"></a>
-                        <a href="http://twitter.com/" class="fa fa-twitter fa-icon"></a>
-                        <a href="http://youtube.com/" class="fa fa-youtube fa-icon"></a>
-                        <a href="mailto:"class="fa fa-envelope-open fa-icon"></a>
-                    </div>
-                </div>
+               </div>
+               <div class="col-md-3 offset-md-1">
+                   <select class="form-control">
+                       <option>Tel.</option>
+                       <option>Email</option>
+                   </select>
+               </div>
            </div>
-           <div class="row justify-content-center">
-                <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+           <div class="form-group row">
+              <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+              <div class="col-md-10">
+                  <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+              </div>
+          </div>
+           <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                    <button type="submit" class="btn btn-primary">Send Feedback</button>
                 </div>
-           </div>
-        </div>
-    </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            </div>
+     </form>
+</div>
+    <br>
+
+</div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+                <h5>Our Address</h5>
+                <address>
+              121, Clear Water Bay Road<br>
+              Clear Water Bay, Kowloon<br>
+              HONG KONG<br>
+              <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+              <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
+              <i class="fa fa-envelope-open fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
+           </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a href="http://www.google.com" class="fa fa-google fa-icon"></a>
+                    <a href="http://www.facebook.com/profile.php?id=" class="fa fa-facebook fa-icon"></a>
+                    <a href="http://www.linkedin.com/in/" class="fa fa-linkedin fa-icon"></a>
+                    <a href="http://twitter.com/" class="fa fa-twitter fa-icon"></a>
+                    <a href="http://youtube.com/" class="fa fa-youtube fa-icon"></a>
+                    <a href="mailto:"class="fa fa-envelope-open fa-icon"></a>
+                </div>
+            </div>
+       </div>
+       <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>© Copyright 2018 Ristorante Con Fusion</p>
+            </div>
+       </div>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- Popper.js first, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
-
 </html>

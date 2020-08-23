@@ -28,3 +28,12 @@
   transform: translateY(-5px);
   transition: 1s;
 }
+
+.thead-dark{
+  background:#4b4b4b;
+  color: #fff;
+}
+.r_card{
+  height: 100vh;
+  margin-top:10rem;
+}
