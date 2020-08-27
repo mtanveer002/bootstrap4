@@ -48,3 +48,33 @@
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
+
+.lgin a{
+  cursor: pointer;
+  text-decoration:none;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+  align-items: center;
+
+}
+.carousel-item h2{
+margin-top: 40px;
+  margin-left: 20rem!important;
+  color: #fff;
+}
+.carousel-item p,h4{
+  padding-left: 20rem;
+  color: #fff;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}

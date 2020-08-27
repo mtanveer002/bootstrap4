@@ -40,6 +40,9 @@
           <a class="nav-link" aria-current="page" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a>
         </li>
       </ul>
+        <span class="navbar-text lgin">
+        <a data-toggle="modal" data-target="#_login" class="text-white"> <span class="fa fa-sign-in fa-lg"></span> Login</a>
+      </span>
     </div>
   </div>
 </nav>
@@ -56,7 +59,7 @@
               <img src="img/logo.png" class="img-fluid" alt="logo">
             </div>
             <div class="col-12 col-sm">
-              <a href="#re-card" role="button" class="btn btn-warning btn-lg btn-block mt-5"
+              <a data-toggle="modal" data-target="#_rtable" role="button" class="btn btn-warning btn-lg btn-block mt-5"
                type="button" name="button">Reserve Table</a>
 
             </div>
@@ -66,6 +69,88 @@
 
 <br><br>
     <div class="container">
+<!-- ================================carasol start============================== -->
+        <div class="row">
+          <div class="col">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner crasl">
+                <div class="carousel-item active">
+                  <div class=" col col-sm order-sm-first col-md my-5">
+
+
+
+                        <img class="d-flex mr-3 img-thumbnail align-itself-center"
+                         src="img/uthappizza.png" alt="uthappizza">
+
+
+                        <h2 class="mt-0 ml-5">Uthappizza <span class="badge bg-danger">HOT</span>
+                        <span class="badge rounded-pill bg-secondary">$4.99</span> </h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                                  Italian pizza, topped with Cerignola olives, ripe vine
+                                  cherry tomatoes, Vidalia onion, Guntur chillies and
+                                  Buffalo Paneer.</p>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+
+
+                      <h2>Weekend Grand Buffet <span class="badge bg-danger">NEW</span> </h2>
+                      <p class="d-none d-sm-block">Started in 2010, Ristorante con Fusion quickly established itself as a
+                        culinary icon par excellence in Hong Kong. With its unique brand of world
+                        fusion cuisine that can be found nowhere else, it enjoys patronage from the
+                         A-list clientele in Hong Kong.  Featuring four of the best three-star
+                          Michelin chefs in the world, you never know what will arrive on your
+                          plate the next time you visit us.</p>
+
+
+                      <img class="d-flex mr-3 img-thumbnail align-self-center"
+                      src="img/buffet.png" alt="buffet">
+
+
+
+
+                </div>
+                <div class="carousel-item">
+
+
+
+                        <img class="d-flex mr-3 img-thumbnail align-self-center"
+                        src="img/alberto.png" alt="alberto">
+
+
+
+                      <h2>Alberto Somayya</h2>
+                      <h4>Executive Chef</h4>
+                      <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                                International experience having worked closely with
+                                whos-who in the culinary world, he specializes in
+                                creating mouthwatering Indo-Italian fusion experiences.
+                        </p>
+                  
+
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <!-- ====================================carasol end==================== -->
         <div class="row">
             <div class="col-12 col-sm-4 order-sm-last col-md-3 my-5 ">
                <h3>Our Lipsmacking culinary Creation</h3>
@@ -93,7 +178,6 @@
         <div class="row">
             <div class="col-12 col-sm-4 col-md-3 my-4">
                 <h3>This Month's Promotions</h3>
-
             </div>
             <div class="col col-sm col-md my-4">
               <div class="row">
@@ -141,6 +225,98 @@
             </div>
        </div>
 <hr>
+<!-- =========================================login model start============================ -->
+<div id="_login" class="modal fade" role="dialog" >
+  <div class="modal-dialog " role="content" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title ">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="name" class="form-control" placeholder="username"> <br>
+        <input type="password" class="form-control" placeholder="password">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- =========================================login model end============================= -->
+
+<!-- =========================================reserve table model start============================ -->
+<div id="_rtable" class="modal fade" role="dialog" >
+  <div class="modal-dialog modal-lg " role="content" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title "> <strong> Reserve a Table </strong></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+                <dl class="row">
+                  <dt class="col-lg-2 col-sm-12">Number of Guests</dt>
+                  <dd class="col-lg-10 col-sm-12">
+
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                   <label class="form-check-label mr-4 font-weight-bold" for="inlineRadio1">1</label>
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                   <label class="form-check-label mr-4 font-weight-bold" for="inlineRadio1">2</label>
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                   <label class="form-check-label mr-4 font-weight-bold" for="inlineRadio1">3</label>
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                   <label class="form-check-label mr-4 font-weight-bold" for="inlineRadio1">4</label>
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                   <label class="form-check-label mr-4 font-weight-bold" for="inlineRadio1">5</label>
+                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                   <label class="form-check-label mr-4 font-weight-bold" for="inlineRadio1">6</label>
+                  </dd>
+                  <dt> <br> </dt>
+                  <dt class="col-lg-2 col-sm-12">section</dt>
+                  <dd class="col-lg-10 col-sm-12">
+
+                    <div class="btn-group">
+                      <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                      <label class="btn btn-success" for="option1">NonwSmoking</label>
+
+                      <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                      <label class="btn btn-danger" for="option2">Smoking</label>
+                    </div>
+
+                  </dd>
+                   <dt class="col-lg-2 col-sm-12 mt-3">Date and Time</dt>
+                   <dd class="col-lg-10 col-sm-12 mt-3">
+                     <div class="row">
+                       <div class="col-lg-4 col-sm-10">
+                         <input type="email" class="form-control"
+                         id="exampleFormControlInput1" placeholder="Date">
+                       </div>
+                       <div class="col-lg-4 col-sm-10">
+                         <input type="email" class="form-control"
+                         id="exampleFormControlInput1" placeholder="Time">
+                       </div>
+                     </div>
+                   </dd>
+
+                </dl>
+
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Reserve</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- =========================================reserve table model end============================= -->
+
        <!-- ===========================reservation table start================= -->
 <section class="r_card" id="re-card">
        <div class="row">
